@@ -7,6 +7,7 @@
 //////////////////////////////////////////////////////////
 //	go export
 extern int luagoc_call(void*, int);
+extern void luagoc_output(const char*);
 //////////////////////////////////////////////////////////
 //	该表存着GoFunction Index -> LuaGo_State的表
 const char* g_szGoStateTable = "gostate_table";
